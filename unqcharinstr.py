@@ -7,7 +7,7 @@ class Solution:
                 if letter not in s[i+1:]: 
                     return i
                 else:
-                    prevInv.add(letter) ## logic to perform a  mathematically operation to add the letters found to the object
+                    prevInv.add(letter) ## logic that performs a mathematically operation to add the letters found to the object
         return -1
 		
 		
