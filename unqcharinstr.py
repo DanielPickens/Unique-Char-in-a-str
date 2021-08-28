@@ -1,6 +1,6 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
-        prevInv = set()  #using a set, initializing and creating the set for the function
+        prevInv = set()  #using a set, initializing and creating the set for the function to test letter entries in a string of s
         
         for i, letter in enumerate(s): ##checking in i the letter, since the iterable is a sequence,  if the letter in s returns a tuple containing a count (from start which defaults to 0) and the values obtained from iterating will set over iterable for str of s or not
             if letter not in prevInv:
